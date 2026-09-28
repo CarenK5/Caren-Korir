@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caren Korir | Data Analyst and AI Builder</title>
+<meta name="description" content="Caren Korir is a Computer Science graduate and Data Analyst at Kenya Power in Nairobi, building AI and data projects with Python, SQL and LLMs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f5;--ink:#14202b;--mute:#4c5b69;--line:#cfd8df;--card:#fff;--ok:#0f7b6c;--flag:#d98a00;--flagbg:#fbeccb}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1720;--ink:#e8eef3;--mute:#9fb0be;--line:#243545;--card:#16222d;--ok:#3ec9b1;--flag:#f2b134;--flagbg:#3a2f14}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--flag);outline-offset:3px}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+header{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+header b{font:700 18px "Bricolage Grotesque",sans-serif}
+nav a{margin-left:20px;text-decoration:none;color:var(--mute)}
+nav a:hover{color:var(--ink);text-decoration:underline}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
+h1{font-size:clamp(38px,7vw,68px);letter-spacing:-.02em;max-width:14ch;margin:36px 0 20px}
+.lead{font-size:19px;color:var(--mute);max-width:56ch;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border:2px solid var(--ink);border-radius:6px;text-decoration:none;font-weight:500}
+.btn.solid{background:var(--ink);color:var(--bg)}
+.btn:hover{transform:translateY(-1px)}
+figure{margin:48px 0 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 20px 12px}
+figcaption{color:var(--mute);font-size:14px;margin-top:6px}
+svg{width:100%;height:auto;display:block}
+svg text{font:12px "IBM Plex Sans",sans-serif;fill:var(--mute)}
+.norm{stroke:var(--mute);stroke-dasharray:5 5;fill:none;stroke-width:2}
+.you{stroke:var(--ok);stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.you.f{stroke:var(--flag)}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:d 2.2s ease-out .3s forwards}
+.draw2{stroke-dasharray:1;stroke-dashoffset:1;animation:d 1s ease-out 2.3s forwards}
+@keyframes d{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.draw,.draw2{animation:none;stroke-dashoffset:0}}
+section{padding:64px 0 0}
+h2{font-size:30px;margin-bottom:22px}
+.proj{display:grid;gap:18px}
+article{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:26px}
+article h3{font-size:23px;margin-bottom:4px}
+.tag{color:var(--mute);font-size:14px;margin:0 0 12px}
+article p{margin:0 0 12px}
+article ul{margin:0 0 14px;padding-left:20px}
+.jobs>div{border-left:3px solid var(--line);padding:0 0 26px 20px}
+.jobs h3{font-size:20px}
+.when{color:var(--mute);font-size:14px;margin:2px 0 8px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.skills h3{font-size:17px;margin-bottom:6px}
+.skills p{margin:0;color:var(--mute)}
+footer{padding:72px 0 48px;color:var(--mute)}
+footer .cta{margin-top:16px}
+@media (max-width:560px){nav a{margin-left:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <b>Caren Korir</b>
+  <nav aria-label="Main"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main>
+<h1>I build data and AI tools people can trust.</h1>
+<p class="lead">I'm a Computer Science graduate and Data Analyst at Kenya Power in Nairobi. I work with Python, SQL and LLMs (RAG, AI agents, prompt engineering) and I like tools that explain their own answers.</p>
+<div class="cta">
+  <a class="btn solid" href="#projects">See my projects</a>
+  <a class="btn" href="https://www.linkedin.com/in/caren-korir-712163218/" rel="noopener">LinkedIn</a>
+  <a class="btn" href="https://github.com/CarenK5" rel="noopener">GitHub</a>
+</div>
+
+<figure>
+<svg viewBox="0 0 700 250" role="img" aria-label="Line chart: a customer's monthly electricity use follows the peer group until the last three months, when it drops sharply and is flagged.">
+  <rect x="505" y="10" width="170" height="200" fill="var(--flagbg)" rx="4"/>
+  <text x="515" y="30">Flagged: drop vs peers</text>
+  <path class="norm" d="M40 110 L95 100 L149 92 L204 98 L258 108 L313 102 L367 94 L422 100 L476 106 L531 100 L585 96 L640 102"/>
+  <path class="you draw" pathLength="1" d="M40 112 L95 103 L149 95 L204 99 L258 110 L313 104 L367 97 L422 101 L476 108"/>
+  <path class="you f draw2" pathLength="1" d="M476 108 L531 150 L585 178 L640 186"/>
+  <g><text x="40" y="232">Jan</text><text x="258" y="232">May</text><text x="476" y="232">Sep</text><text x="622" y="232">Dec</text></g>
+  <text x="46" y="70">Peer group median (dashed)</text>
+</svg>
+<figcaption>Illustrative example of the idea behind my fraud detection project: consumption that drops against both a customer's own history and their peers.</figcaption>
+</figure>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="proj">
+  <article>
+    <h3>Parking app</h3>
+    <p class="tag">Node.js, Express, MongoDB, EJS, Azure Maps | Full-stack web app</p>
+    <p>A full-stack parking web app with a server-rendered front end and a MongoDB database behind it.</p>
+    <ul>
+      <li>User sign-in with Passport and bcrypt password hashing, with session handling in Express.</li>
+      <li>Maps built on Azure Maps.</li>
+      <li>Structured as routes, models and views, and set up with a GitHub Actions workflow.</li>
+    </ul>
+    <a href="https://github.com/CarenK5/Parking-app" rel="noopener">View code on GitHub</a>
+  </article>
+  <article>
+    <h3>Electricity theft detection</h3>
+    <p class="tag">Python, pandas | Prototype</p>
+    <p>Electricity theft is one of the biggest causes of power loss at utilities. This tool flags customers whose consumption falls sharply and persistently, compared with both their own history and their peer group, so seasonal dips are not mistaken for theft.</p>
+    <ul>
+      <li>Each alert has a risk score, an estimated monthly kWh loss and a plain-language reason.</li>
+      <li>Alerts are leads for field inspection, not accusations.</li>
+      <li>Tested on synthetic data: it found 19 of 20 planted cases with no false alarms.</li>
+    </ul>
+    <a href="https://github.com/CarenK5/power-theft-detection" rel="noopener">View code on GitHub</a>
+  </article>
+  <article>
+    <h3>Spotify data analysis</h3>
+    <p class="tag">Python, Jupyter Notebook</p>
+    <p>An exploratory analysis of Spotify data, written in a Jupyter notebook.</p>
+    <a href="https://github.com/CarenK5/spotify-data-analysis" rel="noopener">View notebook on GitHub</a>
+  </article>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="jobs">
+  <div>
+    <h3>Data Analyst, Kenya Power</h3>
+    <p class="when">Nairobi | April 2025 to present</p>
+    <p>Analyse consumption data from a team of 117 technicians, using SQL and Python, and turn it into Power BI and Tableau dashboards for management decisions.</p>
+  </div>
+  <div>
+    <h3>ICT Technical Support Intern, Kenya Power</h3>
+    <p class="when">Eldoret | September to December 2023</p>
+    <p>Gave first-line technical support to staff and explained fixes to users of all technical levels.</p>
+  </div>
+  <div>
+    <h3>BSc Computer Science, Kabarak University</h3>
+    <p class="when">Nakuru | Graduated December 2024</p>
+    <p>Also holds the Google Cybersecurity Certificate.</p>
+  </div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+  <div><h3>AI and LLMs</h3><p>OpenAI and Claude APIs, RAG, AI agents, prompt engineering</p></div>
+  <div><h3>Languages</h3><p>Python, SQL, JavaScript, TypeScript</p></div>
+  <div><h3>Web</h3><p>React, Next.js, Node.js, Express, MongoDB</p></div>
+  <div><h3>Data</h3><p>Power BI, Tableau</p></div>
+  <div><h3>Tools</h3><p>Azure (including Azure Maps), Git, Docker</p></div>
+</div>
+</section>
+</main>
+
+<footer id="contact">
+  <h2>Contact</h2>
+  <p>I'm open to Applied AI and data roles. The best way to reach me is on LinkedIn.</p>
+  <div class="cta">
+    <a class="btn solid" href="https://www.linkedin.com/in/caren-korir-712163218/" rel="noopener">Message me on LinkedIn</a>
+    <a class="btn" href="https://github.com/CarenK5" rel="noopener">github.com/CarenK5</a>
+  </div>
+</footer>
+</div>
+</body>
+</html>
